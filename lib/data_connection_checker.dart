@@ -3,8 +3,8 @@
 /// port and timeout. Defaults are provided for convenience.
 library data_connection_checker;
 
-import 'dart:io';
 import 'dart:async';
+import 'package:universal_io/io.dart';
 
 /// Represents the status of the data connection.
 /// Returned by [DataConnectionChecker.connectionStatus]
